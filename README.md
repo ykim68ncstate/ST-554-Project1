@@ -9,7 +9,7 @@ By the end of the day on Tuesday, 2/10, each member of the group should agree to
 - Task 2: **David Pressley**
 - Task 3: **Hannah Shaw**
 
-Other group notes for this item:
+Other group notes for this item: Tasks were assigned based on individual interest.
 
 
 
