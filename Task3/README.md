@@ -26,6 +26,19 @@ Please replace “Feedback giver #x” with a group member’s name below and ad
       + GPP: add docstring to your function definition
   + Cell: https://colab.research.google.com/drive/1nN7Vdpd8B-HCCAUJvJqDBBdrvBpjgkxf#scrollTo=W2fmAmobNhcT&line=2&uniqifier=1
       + GPP: add docstring to your function definition
+  + **Narrative throughout notebook**:
+      + The requirements state:
+          + "To be clear be sure to include markdown text describing what you are doing and your
+thought process (don’t just put question prompts) A narrative (a spoken or written account of
+connected events; a story) done in markdown should exist in all Notebooks for full credit."
+          + "The audience you are writing for is someone that understands programming and very basic statistics,
+but would need you to provide details and explanation of what you are doing to understand it."
+
+      I think you should address the following:
+          + The introduction describes the dataset but doesn't frame what Task 3 specifically does. Consider adding a couple sentences explaining why standard cross-validation doesn't work for time series data and why we're comparing SLR vs MLR for benzene prediction.
+          + The model comparison after running both CV calls is pretty thin with just one sentence. Since this is the main conclusion, consider providing more. (e.g. what does the MSE difference mean? Why might adding temperature and humidity improve benzene prediction, etc).
+          + After the final model equation, a brief interpretation of the coefficients would be more inclusive. CO(GT) has by far the largest coefficient, which makes sense given the relationship between combustion-related pollutants. Are the signs of the other coefficients sensible? The requirements state:
+        
 
 
 - Feedback giver #2
