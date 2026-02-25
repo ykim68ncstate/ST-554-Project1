@@ -11,7 +11,7 @@ Please replace “Feedback giver #x” with a group member’s name below and ad
   - For the correlation analysis, examining time- or season-specific correlations, as well as relationships among additional variables, may provide further insight into potential drift patterns and underlying structure in the dataset.
 
 
-- Feedback giver - Hannah
+- Feedback giver - Hannah Shaw
   + A few typos:
   +   "The manufacturer specifies less than 2% drift per 6 months (DeVito, 2008)" missing a period at the end of the sentence
   +   "Finally, we conduct temporal analysis from two perspectives: benzene variation over time (line plots across the full collection period) and benzene relationships ignoring time" another missing period at the end of the sentence
