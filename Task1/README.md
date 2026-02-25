@@ -28,5 +28,13 @@ Please replace “Feedback giver #x” with a group member’s name below and ad
   + your functions (e.g. `grid_search_constant()`, `gradient_descent_constant()`, `diff_quotient_b0()` need docstrings
   + 
 
-- Feedback giver #2
-  + item
+- Feedback giver - Hannah Shaw
+  + A few suggestions on grammar/syntax/wording:
+  +   "This data is time series data (data recorded over time) for air quality measurements in Italy." - I would rewrite this as "This dataset consists of time series data (data recorded over time) for air quality measurements in an Italian city." since the website the data comes from specifically says it comes from a single Italian city, not Italy as a whole.
+  +   For "Remove missing value: Exclude observation where C6H6(GT) or CO(GT) equal -200." (under the header Data Cleaning) I would explain why you are removing observations where C6H6(GT) or CO(GT) equal -200 (mainly that -200 represents NaN in this dataset). Also it should be "observations" not "observation"
+  +   You keep switching between "we/our", "you/your", and "I/me/my" pronouns throughout the notebook. For the sake of consistency, just pick one set of pronouns and stick with it for the whole notebook.
+  + Some typos I noticed:
+  +   "we could consider the mean sqaured error" (under the header Loss Function) should be "we could consider the mean squared error"
+  +   "implementing a grid search" The word "implementing" should be capitalized as "Implementing" since it's the first word in a sentence.
+  +   "Pseudo cod" under the header (1) Just y - I assume you meant "Pseudo code"
+  +   print("c 후보값:", grid[:5]) (2nd code box below the header (1) Just y) - I'm confused as to why that line is the only part of your notebook in Korean. And also impressed/surprised that Korean characters work in the code boxes.
