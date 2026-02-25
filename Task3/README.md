@@ -37,7 +37,7 @@ but would need you to provide details and explanation of what you are doing to u
       I think you should address the following:
           + The introduction describes the dataset but doesn't frame what Task 3 specifically does. Consider adding a couple sentences explaining why standard cross-validation doesn't work for time series data and why we're comparing SLR vs MLR for benzene prediction.
           + The model comparison after running both CV calls is pretty thin with just one sentence. Since this is the main conclusion, consider providing more. (e.g. what does the MSE difference mean? Why might adding temperature and humidity improve benzene prediction, etc).
-          + After the final model equation, a brief interpretation of the coefficients would be more inclusive. CO(GT) has by far the largest coefficient, which makes sense given the relationship between combustion-related pollutants. Are the signs of the other coefficients sensible? The requirements state:
+          + After the final model equation, a brief interpretation of the coefficients would be more inclusive. CO(GT) has by far the largest coefficient, which makes sense given the relationship between combustion-related pollutants. Are the signs of the other coefficients sensible?
         
 
 
